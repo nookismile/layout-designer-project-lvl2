@@ -1,13 +1,17 @@
-@import "atomic";
-@import "global";
 @import "variables";
+@import "global";
+@import "atomic";
 
 @import "blocks/page-header";
 @import "blocks/header-top";
 @import "blocks/top-banner";
+@import "blocks/top-banner-wrapper";
 @import "blocks/menu-list";
 @import "blocks/search-block";
 @import "blocks/search-input";
-@import "blocks/main-title";
+@import "blocks/block";
 @import "blocks/main-form";
-@import "blocks/tagline";
+@import "blocks/card-free";
+@import "blocks/card-standart";
+@import "blocks/card-premium";
+@import "blocks/page-footer";
