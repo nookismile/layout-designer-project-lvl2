@@ -41,6 +41,18 @@
   flex-wrap: wrap;
 }
 
+.d-grid {
+  display: grid;
+}
+
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-gap-50 {
+  grid-gap: 50px;
+}
+
 .center {
   justify-content: center;
 }
@@ -70,6 +82,10 @@
 
 .align-center {
   align-items: center;
+}
+
+.f-grow {
+  flex-grow: 1;
 }
 
 .block-33 {
@@ -177,6 +193,10 @@
   background-color: $light-black;
 }
 
+.btn-violet {
+  background-color: $violet;
+}
+
 .btn-transparent {
   color: $white;
   background-color: $tr;
@@ -236,10 +256,19 @@
   color: $dark-grey;
 }
 
+.c-light-grey {
+  color: $light-grey;
+}
+
+
 // tipografy
 
 .font-bold {
   font-weight: bold;
+}
+
+.font-normal {
+  font-weight: normal;
 }
 
 .t-small-bold {
@@ -292,8 +321,20 @@ line-height: 150%;
   text-align: center;
 }
 
+.t-left {
+  text-align: left;
+}
+
+.t-right {
+  text-align: right;
+}
+
 .t-uppercase {
   text-transform: uppercase;
+}
+
+.t-lowercase {
+  text-transform:lowercase;
 }
 
 .back-center {

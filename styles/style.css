@@ -108,6 +108,15 @@ a {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 
+.d-grid {
+  display: grid; }
+
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr); }
+
+.grid-gap-50 {
+  grid-gap: 50px; }
+
 .center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -139,6 +148,11 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+
+.f-grow {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
 
 .block-33 {
   width: 31%; }
@@ -220,6 +234,9 @@ a {
 .btn-orange:hover {
   background-color: #3C3B3D; }
 
+.btn-violet {
+  background-color: #5328A1; }
+
 .btn-transparent {
   color: #ffffff;
   background-color: transparent;
@@ -268,8 +285,14 @@ a {
 .c-dark-grey {
   color: #CACACA; }
 
+.c-light-grey {
+  color: #E0E0E0; }
+
 .font-bold {
   font-weight: bold; }
+
+.font-normal {
+  font-weight: normal; }
 
 .t-small-bold {
   font-weight: bold;
@@ -311,8 +334,17 @@ a {
 .t-center {
   text-align: center; }
 
+.t-left {
+  text-align: left; }
+
+.t-right {
+  text-align: right; }
+
 .t-uppercase {
   text-transform: uppercase; }
+
+.t-lowercase {
+  text-transform: lowercase; }
 
 .back-center {
   background-size: cover;
@@ -458,6 +490,9 @@ a {
 
 .page-footer {
   background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%); }
+
+.back-morten {
+  background-image: url("../images/Morten Harket.png"); }
 
 @media (max-width: 700px) {
   .w-100-mobile {
