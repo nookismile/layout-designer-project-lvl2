@@ -1,4 +1,4 @@
-@media(max-width: 700px) {
+@media(max-width: 1000px) {
   .w-100-mobile {
     width: 100%;
   }
@@ -13,6 +13,10 @@
 
   .order-2-mobile {
     order: 2;
+  }
+
+  .grid-columns-4 {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
