@@ -163,6 +163,9 @@ a {
 .w-50 {
   width: 48%; }
 
+.w-200 {
+  width: 200px; }
+
 .h-100 {
   height: 100%; }
 
@@ -192,6 +195,10 @@ a {
 
 .m-right-15 {
   margin-right: 15px; }
+
+.p-200 {
+  padding-top: 200px;
+  padding-bottom: 200px; }
 
 .p-top-100 {
   padding-top: 100px; }
@@ -354,23 +361,25 @@ a {
 .b-bottom-grey {
   border-bottom: 1px solid #E0E0E0; }
 
+.filter-invert {
+  -webkit-filter: invert(1);
+          filter: invert(1); }
+
 .page-header {
-  position: relative;
-  height: 100vh;
   padding-top: 25px; }
 
 .header-item {
   width: 50%; }
 
-.top-banner {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
+.bg-main {
   background-image: url("../images/banner.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
+
+.logo {
+  margin-bottom: 10px;
+  margin-right: 15px; }
 
 .top-banner-wrapper {
   display: -webkit-box;
@@ -387,9 +396,14 @@ a {
 
 .menu-list a {
   padding: 5px 0;
-  color: #ffffff;
-  font-size: 14px;
+  color: #CACACA;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
   text-transform: uppercase; }
+
+.menu-list a.active {
+  color: #ffffff; }
 
 .search-input {
   display: inline-block;
@@ -430,8 +444,7 @@ a {
       flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%; }
+          justify-content: space-between; }
 
 .block-item {
   width: 48%; }
@@ -491,8 +504,11 @@ a {
 .page-footer {
   background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%); }
 
-.back-morten {
-  background-image: url("../images/Morten Harket.png"); }
+.bg-artist {
+  background-image: url("../images/Morten-Harket.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
 
 @media (max-width: 1000px) {
   .w-100-mobile {

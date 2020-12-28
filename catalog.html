@@ -13,59 +13,63 @@
 </head>
 
 <body>
-    <header class="page-header">
-      <div class="header-top wrapper p-relative z-index-2 d-flex space-between">
+    <header class="page-header p-absolute-center">
+        <div class="wrapper z-index-2 d-flex space-between">
             <div class="d-flex">
-            <div class="logo m-bottom-10 m-right-15">
-              <a href="#">
-                <img src="images/logo.png" alt="">
-              </a>
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <nav class="m-bottom-10">
+                    <ul class="d-flex menu-list">
+                        <li class="w-100-mobile m-right-15"><a href="#">Главная</a>
+                        </li>
+                        <li class="w-100-mobile m-right-15"><a href="#">Каталог</a>
+                        </li>
+                        <li class="w-100-mobile m-right-15"><a class="active" href="#">Исполнители</a>
+                        </li>
+                        <li class="w-100-mobile m-right-15"><a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="main-nav m-bottom-10">
-                <ul class="menu-list d-flex">
-                    <li class="w-100-mobile m-right-15"><a href="#">Главная</a>
-                    </li>
-                    <li class="w-100-mobile m-right-15"><a href="#">Каталог</a>
-                    </li>
-                    <li class="w-100-mobile m-right-15"><a href="#">Исполнители</a>
-                    </li>
-                    <li class="w-100-mobile m-right-15"><a href="#">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-          </div>
-           <div class="w-100-mobile">
-            <div class="search-block w-100-mobile m-bottom-10">
-                <input class="search-input w-100-mobile" type="search" placeholder="Поиск...">
+            <div class="w-100-mobile">
+                <div class="search-block w-100-mobile m-bottom-10">
+                    <input class="search-input w-100-mobile" type="search" placeholder="Поиск...">
+                </div>
             </div>
-          </div>
         </div>
-        <div class="top-banner back-morten back-center" id="page-description">
-           <div class="d-flex-column center wrapper h-100">
+    </header>
+    <section class="p-relative p-200 bg-artist z-index-1" id="page-description">
+        <div class="d-flex-column center wrapper">
             <h1 class="c-white t-left t-uppercase">
                 Morten harket
-                <div class="font-normal t-size-1 c-white t-lowercase">24 875 поклонников</div>
+                </h1>
+                <div class="m-bottom-46 font-normal t-size-1 c-white t-lowercase">24 875 поклонников</div>
                 <ul class="d-flex">
-                    <li><a class="btn btn-violet font-normal t-uppercase" href="#">Микс</a>
+                    <li><a class="btn btn-violet d-flex align-center w-200 m-bottom-20 m-right-15 t-small font-normal t-uppercase" href="#">
+                    <img class="m-right-15 filter-invert" src="images/play-button.svg" width="20" alt="">
+                    Микс</a>
                     </li>
-                    <li><a class="btn btn-red font-normal t-uppercase" href="#">В избранное</a>
+                    <li><a class="btn btn-red d-flex align-center w-200 m-bottom-20 t-small font-normal t-uppercase" href="#">
+                    <img class="m-right-15 filter-invert" src="images/heart.svg" width="20" alt="">
+                    В избранное</a>
                     </li>
                 </ul>
-            </h1>
         </div>
-      </div>
-    </header>
+    </section>
     <main>
         <div class="p-top-100" id="page-popular-track">
-           <div class="wrapper">
-            <h2 class="m-bottom-46 c-white t-left t-uppercase">
+            <div class="wrapper">
+                <h2 class="m-bottom-46 c-white t-left t-uppercase">
                 Популярные треки
             </h2>
-            <div class="d-flex space-between">
-                <div class="w-50 w-100-mobile">
+                <div class="d-flex space-between">
+                    <div class="w-50 w-100-mobile">
                         <div class="d-flex align-center m-bottom-25">
                             <div class="m-right-15">
-                                <img src="images/Wild%20Seed.png" width="55" height="55" alt="">
+                                <img src="images/Wild-Seed.png" width="55" height="55" alt="">
                             </div>
                             <div>
                                 <div class="font-bold c-white t-uppercase">Spanish step</div>
@@ -89,7 +93,7 @@
                         </div>
                         <div class="d-flex align-center m-bottom-25">
                             <div class="m-right-15">
-                                <img src="images/Letter from Egypt.png" width="55" height="55" alt="">
+                                <img src="images/Letter-from-Egypt.png" width="55" height="55" alt="">
                             </div>
                             <div>
                                 <div class="font-bold c-white t-uppercase">Darkspace</div>
@@ -99,11 +103,11 @@
                                 <span class="c-light-grey">4:07</span>
                             </div>
                         </div>
-                </div>
-                <div class="w-50 w-100-mobile">
-                       <div class="d-flex align-center m-bottom-25">
+                    </div>
+                    <div class="w-50 w-100-mobile">
+                        <div class="d-flex align-center m-bottom-25">
                             <div class="m-right-15">
-                                <img src="images/Wild%20Seed.png" width="55" height="55" alt="">
+                                <img src="images/Wild_Seed.png" width="55" height="55" alt="">
                             </div>
                             <div>
                                 <div class="font-bold c-white t-uppercase">With you - with me</div>
@@ -115,7 +119,7 @@
                         </div>
                         <div class="d-flex align-center m-bottom-25">
                             <div class="m-right-15">
-                                <img src="images/Letter from Egypt.png" width="55" height="55" alt="">
+                                <img src="images/Letter-from-Egypt.png" width="55" height="55" alt="">
                             </div>
                             <div>
                                 <div class="font-bold c-white t-uppercase">Brodsky tune</div>
@@ -127,7 +131,7 @@
                         </div>
                         <div class="d-flex align-center m-bottom-25">
                             <div class="m-right-15">
-                                <img src="images/Out of My Hands.png" width="55" height="55" alt="">
+                                <img src="images/Out-of-My-Hands.png" width="55" height="55" alt="">
                             </div>
                             <div>
                                 <div class="font-bold c-white t-uppercase">Burn money burn</div>
@@ -139,214 +143,214 @@
                         </div>
                     </div>
 
+                </div>
             </div>
-          </div>
         </div>
-         <div class="p-top-100" class="page-discography">
-           <div class="wrapper">
-            <h2 class="m-bottom-46 c-white t-left t-uppercase">
+        <div class="p-top-100" id="page-discography">
+            <div class="wrapper">
+                <h2 class="m-bottom-46 c-white t-left t-uppercase">
                 Дискография
             </h2>
-            <ul class="d-grid grid-columns-4 grid-gap-50">
-                <li>
-                    <div class="p-relative">
-                        <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/Brother.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold">Brother</div>
-                        <div class="c-light-grey">2014</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="p-relative">
-                        <a class="p-absolute-center w-100 h-100 z-index-1"  href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/Out%20of%20My%20Hands.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold">Out of My Hands</div>
-                        <div class="c-light-grey">2012</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="p-relative">
-                        <a class="p-absolute-center w-100 h-100 z-index-1"  href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/Letter%20from%20Egypt.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold">Letter from Egypt</div>
-                        <div class="c-light-grey">2008</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="p-relative">
-                        <a class="p-absolute-center w-100 h-100 z-index-1"  href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/Vogts%20Villa.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold">Vogts Villa</div>
-                        <div class="c-light-grey">1996</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="p-relative">
-                        <a class="p-absolute-center w-100 h-100 z-index-1"  href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/Wild%20Seed.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold">Wild Seed</div>
-                        <div class="c-light-grey">1995</div>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a class="p-absolute-center w-100 h-100 z-index-1"  href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/Poetenes%20Evangelium.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold">Poetenes Evangelium</div>
-                        <div class="c-light-grey">1993</div>
-                    </div>
-                </li>
-            </ul>
+                <ul class="d-grid grid-columns-4 grid-gap-50">
+                    <li>
+                        <div class="p-relative">
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/Brother.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold">Brother</div>
+                            <div class="c-light-grey">2014</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-relative">
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/Out-of-My-Hands.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold">Out of My Hands</div>
+                            <div class="c-light-grey">2012</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-relative">
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/Letter-from-Egypt.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold">Letter from Egypt</div>
+                            <div class="c-light-grey">2008</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-relative">
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/Vogts-Villa.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold">Vogts Villa</div>
+                            <div class="c-light-grey">1996</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-relative">
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/Wild_Seed.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold">Wild Seed</div>
+                            <div class="c-light-grey">1995</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/Poetenes-Evangelium.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold">Poetenes Evangelium</div>
+                            <div class="c-light-grey">1993</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-            <div class="p-top-100 p-bottom-100" id="page-similar">
-           <div class="wrapper">
-            <h2 class="m-bottom-46 c-white t-left t-uppercase">
+        <div class="p-top-100 p-bottom-100" id="page-similar">
+            <div class="wrapper">
+                <h2 class="m-bottom-46 c-white t-left t-uppercase">
                 Похожие исполнители
             </h2>
-            <ul class="d-grid grid-columns-4 grid-gap-50">
-                <li>
-                    <div class="p-relative">
-                        <a class="p-absolute-center w-100 h-100 z-index-1"  href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/A-ha.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold t-center">A-ha</div>
-                        <div class="c-light-grey t-center">417 086 поклонников</div>
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <a class="p-absolute-center w-100 h-100 z-index-1"  href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/Tears%20for%20Fears.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold t-center">Tears for Fears</div>
-                        <div class="c-light-grey t-center">434 086 поклонников</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="p-relative">
-                        <a class="p-absolute-center w-100 h-100 z-index-1"  href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/Duran%20Duran.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold t-center">Duran Duran</div>
-                        <div class="c-light-grey t-center">631 071 поклонник</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="p-relative">
-                        <a class="p-absolute-center w-100 h-100 z-index-1"  href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/Jack%20Savoretti.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold">Jack Savoretti</div>
-                        <div class="c-light-grey">26 857 поклонников</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="p-relative">
-                        <a class="p-absolute-center w-100 h-100 z-index-1"  href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/Keane.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold t-center">Keane</div>
-                        <div class="c-light-grey t-center">1 704 358 поклонников</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="p-relative">
-                       <a class="p-absolute-center w-100 h-100 z-index-1"  href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/Frank%20Sinatra.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold t-center">Frank Sinatra</div>
-                        <div class="c-light-grey t-center">1 653 882 поклонников</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="p-relative">
-                       <a class="p-absolute-center w-100 h-100 z-index-1"  href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/Paul%20Young.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold t-center">Paul Young</div>
-                        <div class="c-light-grey t-center">50 329 поклонников</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="p-relative">
-                        <a class="p-absolute-center w-100 h-100 z-index-1"  href="#"></a>
-                        <img class="d-block m-bottom-20" src="images/Chris%20Rea.png" alt="">
-                        <div class="m-bottom-10 c-white font-bold t-center">Chris Rea</div>
-                        <div class="c-light-grey t-center">73 351 поклонников</div>
-                    </div>
-                </li>
-            </ul>
+                <ul class="d-grid grid-columns-4 grid-gap-50">
+                    <li>
+                        <div class="p-relative">
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/A-ha.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold t-center">A-ha</div>
+                            <div class="c-light-grey t-center">417 086 поклонников</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/Tears-for-Fears.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold t-center">Tears for Fears</div>
+                            <div class="c-light-grey t-center">434 086 поклонников</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-relative">
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/Duran-Duran.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold t-center">Duran Duran</div>
+                            <div class="c-light-grey t-center">631 071 поклонник</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-relative">
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/Jack-Savoretti.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold">Jack Savoretti</div>
+                            <div class="c-light-grey">26 857 поклонников</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-relative">
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/Keane.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold t-center">Keane</div>
+                            <div class="c-light-grey t-center">1 704 358 поклонников</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-relative">
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/Frank-Sinatra.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold t-center">Frank Sinatra</div>
+                            <div class="c-light-grey t-center">1 653 882 поклонников</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-relative">
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/Paul-Young.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold t-center">Paul Young</div>
+                            <div class="c-light-grey t-center">50 329 поклонников</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="p-relative">
+                            <a class="p-absolute-center w-100 h-100 z-index-1" href="#"></a>
+                            <img class="d-block m-bottom-20" src="images/Chris-Rea.png" alt="">
+                            <div class="m-bottom-10 c-white font-bold t-center">Chris Rea</div>
+                            <div class="c-light-grey t-center">73 351 поклонников</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-           </div>
     </main>
-     <footer class="page-footer">
+    <footer class="page-footer">
         <div class="footer-top p-top-60 p-bottom-60 b-bottom-grey">
-           <div class="wrapper d-flex space-between">
-            <div class="c-white w-100-mobile m-bottom-mobile">
-                <div class="m-bottom-20 t-size-1 t-uppercase font-bold">О нас</div>
-                <ul>
-                    <li class="m-bottom-10"><a href="#">История компании</a>
-                    </li>
-                    <li class="m-bottom-10"><a href="#">Карьера</a>
-                    </li>
-                    <li class="m-bottom-10"><a href="#">Особенности</a>
-                    </li>
-                    <li class="m-bottom-10"><a href="#">Пресса</a>
-                    </li>
-                </ul>
+            <div class="wrapper d-flex space-between">
+                <div class="c-white w-100-mobile m-bottom-mobile">
+                    <div class="m-bottom-20 t-size-1 t-uppercase font-bold">О нас</div>
+                    <ul>
+                        <li class="m-bottom-10"><a href="#">История компании</a>
+                        </li>
+                        <li class="m-bottom-10"><a href="#">Карьера</a>
+                        </li>
+                        <li class="m-bottom-10"><a href="#">Особенности</a>
+                        </li>
+                        <li class="m-bottom-10"><a href="#">Пресса</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="c-white w-100-mobile m-bottom-mobile">
+                    <div class="m-bottom-20 t-size-1 t-uppercase font-bold">Поддержка</div>
+                    <ul>
+                        <li class="m-bottom-10"><a href="#">База знаний</a>
+                        </li>
+                        <li class="m-bottom-10"><a href="#">Тарифы</a>
+                        </li>
+                        <li class="m-bottom-10"><a href="#">Мобильное приложение</a>
+                        </li>
+                        <li class="m-bottom-10"><a href="#">Условия использования</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="c-white w-100-mobile m-bottom-mobile">
+                    <div class="m-bottom-20 t-size-1 t-uppercase font-bold">Контакты</div>
+                    <ul>
+                        <li class="m-bottom-10"><a href="mailto:hello@music.box">hello@music.box</a>
+                        </li>
+                        <li class="m-bottom-10"><span>Russia, Moscow. Music Box studio</span>
+                        </li>
+                        <li class="m-bottom-10"><a href="tel:84999999999">+ 7 499 999 99 99</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="c-white w-100-mobile m-bottom-mobile">
+                    <div class="m-bottom-20 t-size-1 t-uppercase font-bold">Подписывайтесь</div>
+                    <ul class="d-flex">
+                        <li>
+                            <a class="link-google p-relative d-block m-right-15" href="#" aria-label="Гугл"></a>
+                        </li>
+                        <li>
+                            <a class="link-twitter p-relative d-block m-right-15" href="#" aria-label="Твиттер"></a>
+                        </li>
+                        <li>
+                            <a class="link-facebook p-relative d-block m-right-15" href="#" aria-label="Фейсбук"></a>
+                        </li>
+                        <li>
+                            <a class="link-inst p-relative d-block m-right-15" href="#" aria-label="Инстаграм"></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="c-white w-100-mobile m-bottom-mobile">
-                <div class="m-bottom-20 t-size-1 t-uppercase font-bold">Поддержка</div>
-                <ul>
-                    <li class="m-bottom-10"><a href="#">База знаний</a>
-                    </li>
-                    <li class="m-bottom-10"><a href="#">Тарифы</a>
-                    </li>
-                    <li class="m-bottom-10"><a href="#">Мобильное приложение</a>
-                    </li>
-                    <li class="m-bottom-10"><a href="#">Условия использования</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="c-white w-100-mobile m-bottom-mobile">
-                <div class="m-bottom-20 t-size-1 t-uppercase font-bold">Контакты</div>
-                <ul>
-                    <li class="m-bottom-10"><a href="mailto:hello@music.box">hello@music.box</a>
-                    </li>
-                    <li class="m-bottom-10"><span>Russia, Moscow. Music Box studio</span>
-                    </li>
-                    <li class="m-bottom-10"><a href="tel:84999999999">+ 7 499 999 99 99</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="c-white w-100-mobile m-bottom-mobile">
-                <div class="m-bottom-20 t-size-1 t-uppercase font-bold">Подписывайтесь</div>
-                <ul class="d-flex">
-                    <li>
-                        <a class="link-google p-relative d-block m-right-15" href="#" aria-label="Гугл"></a>
-                    </li>
-                    <li>
-                        <a class="link-twitter p-relative d-block m-right-15" href="#" aria-label="Твиттер"></a>
-                    </li>
-                    <li>
-                        <a class="link-facebook p-relative d-block m-right-15" href="#" aria-label="Фейсбук"></a>
-                    </li>
-                    <li>
-                        <a class="link-inst p-relative d-block m-right-15" href="#" aria-label="Инстаграм"></a>
-                    </li>
-                </ul>
-            </div>
-          </div>
         </div>
         <div class="footer-bottom p-top-60 p-bottom-60">
-           <div class="wrapper d-flex space-between">
-            <ul class="d-flex space-between">
-                <li class="m-right-15 w-100-mobile"><a href="#">Магазин</a>
-                </li>
-                <li class="m-right-15 w-100-mobile"><a href="#">Обслуживание</a>
-                </li>
-                <li class="m-right-15 w-100-mobile"><a href="#">Блог</a>
-                </li>
-                <li class="m-right-15 w-100-mobile"><a href="#">Поддержка</a>
-                </li>
-                <li class="m-right-15 w-100-mobile"><a href="#">Контакты</a>
-                </li>
-            </ul>
-          </div>
+            <div class="wrapper d-flex space-between">
+                <ul class="d-flex space-between">
+                    <li class="m-right-15 w-100-mobile"><a href="#">Магазин</a>
+                    </li>
+                    <li class="m-right-15 w-100-mobile"><a href="#">Обслуживание</a>
+                    </li>
+                    <li class="m-right-15 w-100-mobile"><a href="#">Блог</a>
+                    </li>
+                    <li class="m-right-15 w-100-mobile"><a href="#">Поддержка</a>
+                    </li>
+                    <li class="m-right-15 w-100-mobile"><a href="#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
