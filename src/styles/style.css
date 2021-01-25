@@ -41,6 +41,10 @@ img {
 ul li {
   list-style-type: none; }
 
+ul li span {
+  font-size: 16px;
+  line-height: 150%; }
+
 h1,
 .h1 {
   font-size: 60px;
@@ -202,6 +206,9 @@ a {
 .m-bottom-20 {
   margin-bottom: 20px; }
 
+.m-bottom-18 {
+  margin-bottom: 18px; }
+
 .m-bottom-15 {
   margin-bottom: 15px; }
 
@@ -250,7 +257,7 @@ a {
   padding-bottom: 100px; }
 
 .p-bottom-75 {
-  padding-bottom: 75px; }
+  padding-bottom: 72px; }
 
 .p-bottom-70 {
   padding-bottom: 70px; }
@@ -397,7 +404,7 @@ a {
 
 .t-size-8 {
   font-size: 18px;
-  line-height: 27px; }
+  line-height: 32px; }
 
 .t-center {
   text-align: center; }
@@ -565,7 +572,7 @@ a {
   width: 25px;
   height: 25px;
   background-image: url("../images/Facebook.png");
-  background-size: 15px;
+  background-size: 13px;
   background-position: center;
   background-repeat: no-repeat; }
 
