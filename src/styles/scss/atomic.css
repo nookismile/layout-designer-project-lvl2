@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$tr".
-        on line 248 of D:\projects\project2\src\styles\scss\atomic.scss
+        on line 247 of D:\projects\project2\src\styles\scss\atomic.scss
 
-243: }
-244: 
-245: .btn {
-246:   padding: 20px 30px;
-247:   text-align: center;
-248:   border: 1px solid $tr;
-249:   border-radius: 5px;
-250:   text-transform: uppercase;
-251:   cursor: pointer;
-252: }
-253: 
+242: }
+243: 
+244: .btn {
+245:   padding: 20px 30px;
+246:   text-align: center;
+247:   border: 1px solid $tr;
+248:   border-radius: 5px;
+249:   text-transform: uppercase;
+250:   cursor: pointer;
+251: }
+252: 
 
 Backtrace:
-D:\projects\project2\src\styles\scss\atomic.scss:248
+D:\projects\project2\src\styles\scss\atomic.scss:247
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -66,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$tr\".\A         on line 248 of D:\projects\project2\src\styles\scss\atomic.scss\A \A 243: }\A 244: \A 245: .btn {\A 246:   padding: 20px 30px;\A 247:   text-align: center;\A 248:   border: 1px solid $tr;\A 249:   border-radius: 5px;\A 250:   text-transform: uppercase;\A 251:   cursor: pointer;\A 252: }\A 253: "; }
+  content: "Error: Undefined variable: \"$tr\".\A         on line 247 of D:\projects\project2\src\styles\scss\atomic.scss\A \A 242: }\A 243: \A 244: .btn {\A 245:   padding: 20px 30px;\A 246:   text-align: center;\A 247:   border: 1px solid $tr;\A 248:   border-radius: 5px;\A 249:   text-transform: uppercase;\A 250:   cursor: pointer;\A 251: }\A 252: "; }
