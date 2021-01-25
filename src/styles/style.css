@@ -553,6 +553,10 @@ a {
 .page-footer {
   background: linear-gradient(265.08deg, #95390C 14.9%, #5328A1 68.95%); }
 
+.footer-top .d-grid {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 35px; }
+
 .bg-artist {
   background-image: url("../images/Morten-Harket.png");
   background-size: cover;
