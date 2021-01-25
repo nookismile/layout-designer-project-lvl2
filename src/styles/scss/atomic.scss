@@ -138,6 +138,10 @@
   margin-bottom: 40px;
 }
 
+.m-bottom-35 {
+  margin-bottom: 35px;
+}
+
 .m-bottom-30 {
   margin-bottom: 30px;
 }
@@ -158,8 +162,16 @@
   margin-bottom: 10px;
 }
 
+.m-bottom-5 {
+  margin-bottom: 5px;
+}
+
 .m-left-15 {
   margin-left: 15px;
+}
+
+.m-right-20 {
+  margin-right: 20px;
 }
 
 .m-right-15 {
@@ -169,6 +181,14 @@
 @media(max-width: 600px) {
   .m-bottom-50-mobile {
     margin-bottom: 50px;
+  }
+
+  .m-bottom-45-mobile {
+    margin-bottom: 45px;
+  }
+
+  .m-bottom-15-mobile {
+    margin-bottom: 15px;
   }
 }
 
@@ -198,6 +218,14 @@
 
 .p-bottom-100 {
   padding-bottom: 100px;
+}
+
+.p-bottom-75 {
+  padding-bottom: 75px;
+}
+
+.p-bottom-70 {
+  padding-bottom: 70px;
 }
 
 .p-bottom-60 {
@@ -259,6 +287,10 @@
 
 .btn-round {
   border-radius: 32px;
+}
+
+.btn-download {
+  padding: 20px 40px;
 }
 
 .input {
