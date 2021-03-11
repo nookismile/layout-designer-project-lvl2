@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAc;EACZ,KAAK,EAAE,KAAK;;AAGd,mBAAoB;EACjB,KAAK,EAAE,IAAI",
+"sources": ["search-block.scss"],
+"names": [],
+"file": "search-block.css"
+}

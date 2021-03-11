@@ -45,6 +45,13 @@ body {
   padding: 0 20px;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -20px;
+  margin-left: -20px;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -65,11 +72,27 @@ h1,
   line-height: 90px;
 }
 
+@media(max-width: 600px) {
+  h1,
+.h1 {
+  font-size: 30px;
+  line-height: 45px;
+  }
+  }
+
 h2,
 .h2 {
   font-size: 38px;
   line-height: 1.5;
 }
+
+@media(max-width: 600px) {
+  h2,
+.h2 {
+  font-size: 18px;
+  line-height: 27px;
+  }
+  }
 
 h3,
 .h3 {

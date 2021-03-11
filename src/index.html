@@ -14,35 +14,29 @@
 
 <body>
     <header class="page-header p-absolute-center">
-        <div class="wrapper z-index-2 d-flex space-between">
-            <div class="d-flex align-center">
-                <div class="logo m-bottom-15-mobile">
-                    <a class="d-flex align-center" href="#">
-                        <img class="m-right-15" src="images/logo.svg" alt="" width="24" height="24">
-                        <span class="font-bold t-uppercase">Music Box</span>
-                    </a>
-                </div>
-                <nav class="m-bottom-15-mobile">
-                    <ul class="d-flex menu-list">
-                        <li class="w-100-mobile m-right-25"><a class="active" href="#">Главная</a>
-                        </li>
-                        <li class="w-100-mobile m-right-25"><a href="#">Каталог</a>
-                        </li>
-                        <li class="w-100-mobile m-right-25"><a href="#">Исполнители</a>
-                        </li>
-                        <li class="w-100-mobile m-right-25"><a href="#">Контакты</a>
-                        </li>
-                    </ul>
+        <div class="wrapper">
+            <div class="header-top flex-column-mobile">
+              <div class="header-top-item header-top-item-15 d-flex align-center m-bottom-15 logo">
+                <img src="./images/logo.svg" class="m-right-15" alt="logo Music Box" width="25">
+                <span class="font-bold t-uppercase">Music Box</span>
+              </div>
+              <div class="header-top-item d-flex align-center m-bottom-15">
+                <nav>
+                  <ul class="menu-list flex-column-mobile">
+                    <li class="m-right-25"><a href="/" class="active">Главная</a></li>
+                    <li class="m-right-25"><a href="#">Каталог</a></li>
+                    <li class="m-right-25"><a href="/artist.html">Исполнители</a></li>
+                    <li><a href="#">Контакты</a></li>
+                  </ul>
                 </nav>
+              </div>
+              <div class="header-top-item header-top-item-23 search-block">
+                <input type="text" class="search-input" placeholder="ПОИСК...">
+              </div>
             </div>
-            <div class="w-100-mobile">
-                <div class="search-block w-100-mobile m-bottom-10">
-                    <input class="search-input w-100-mobile" type="search" placeholder="Поиск...">
-                </div>
-            </div>
-        </div>
+          </div>
     </header>
-    <section class="p-relative p-200 p-250-mobile bg-main z-index-1" id="page-description">
+    <section class="p-relative p-200 p-250-mobile bg-main" id="page-description">
         <div class="d-flex-column center wrapper">
             <h1 class="d-block m-bottom-35 m-bottom-15-mobile c-white t-center t-uppercase">
                 Онлайн музыка где угодно

@@ -1,0 +1,27 @@
+@media (max-width: 1000px) {
+  .w-100-mobile {
+    width: 100%; }
+
+  .m-bottom-mobile {
+    margin-bottom: 30px; }
+
+  .order-1-mobile {
+    order: 1; }
+
+  .order-2-mobile {
+    order: 2; }
+
+  .grid-columns-4 {
+    grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 414px) {
+  h1,
+  .h1 {
+    font-size: 30px;
+    line-height: 45px; }
+
+  h2,
+  .h2 {
+    font-size: 18px;
+    line-height: 27px; } }
+
+/*# sourceMappingURL=media.css.map */

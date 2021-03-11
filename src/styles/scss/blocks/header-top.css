@@ -1,0 +1,11 @@
+.header-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.header-top-item {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%; }
+
+/*# sourceMappingURL=header-top.css.map */

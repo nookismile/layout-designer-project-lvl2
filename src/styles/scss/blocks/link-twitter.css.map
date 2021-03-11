@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,aAAc;EACV,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,4BAA4B;EAC9C,eAAe,EAAE,IAAI;EACrB,mBAAmB,EAAE,MAAM;EAC3B,iBAAiB,EAAE,SAAS",
+"sources": ["link-twitter.scss"],
+"names": [],
+"file": "link-twitter.css"
+}

@@ -1,0 +1,9 @@
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.block-item {
+  width: 48%; }
+
+/*# sourceMappingURL=block.css.map */
