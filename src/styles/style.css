@@ -207,6 +207,9 @@ a {
 .m-top-200 {
   margin-top: 200px; }
 
+.m-top-184 {
+  margin-top: 184px; }
+
 .m-top-55 {
   margin-top: 55px; }
 
@@ -292,7 +295,7 @@ a {
 @media (max-width: 600px) {
   .p-250-mobile {
     padding-top: 250px;
-    padding-bottom: 210px; } }
+    padding-bottom: 200px; } }
 .p-top-100 {
   padding-top: 100px; }
 
@@ -454,7 +457,7 @@ a {
 
 .t-size-7 {
   font-size: 64px;
-  line-height: 150%; }
+  line-height: 96px; }
 
 .t-size-8 {
   font-size: 18px;
@@ -620,21 +623,38 @@ a {
   max-width: 570px;
   margin: 0 auto; }
 
+.cards-price {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-gap: 50px; }
+
 .card-free {
-  padding: 20px;
+  padding: 24px;
   padding-bottom: 60px;
   background-image: url("../images/subscribe_1.png"); }
 
+@media (max-width: 600px) {
+  .card-free {
+    padding: 18px 24px;
+    padding-bottom: 60px; } }
 .card-standart {
-  padding: 20px;
+  padding: 24px;
   padding-bottom: 60px;
   background-image: url("../images/subscribe_2.png"); }
 
+@media (max-width: 600px) {
+  .card-standart {
+    padding: 18px 24px;
+    padding-bottom: 60px; } }
 .card-premium {
-  padding: 20px;
+  padding: 24px;
   padding-bottom: 60px;
   background-image: url("../images/subscribe_3.png"); }
 
+@media (max-width: 600px) {
+  .card-premium {
+    padding: 18px 24px;
+    padding-bottom: 60px; } }
 .link-google {
   width: 25px;
   height: 25px;

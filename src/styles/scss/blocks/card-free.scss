@@ -1,5 +1,12 @@
 .card-free {
-  padding: 20px;
+  padding: 24px;
   padding-bottom: 60px;
   background-image: url("../images/subscribe_1.png");
+}
+
+@media(max-width: 600px) {
+  .card-free {
+    padding: 18px 24px;
+    padding-bottom: 60px;
+  }
 }

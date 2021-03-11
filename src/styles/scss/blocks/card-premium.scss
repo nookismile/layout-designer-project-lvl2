@@ -1,5 +1,12 @@
 .card-premium {
-  padding: 20px;
+  padding: 24px;
   padding-bottom: 60px;
   background-image: url("../images/subscribe_3.png");
+}
+
+@media(max-width: 600px) {
+  .card-premium {
+    padding: 18px 24px;
+    padding-bottom: 60px;
+  }
 }
